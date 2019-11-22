@@ -12,7 +12,6 @@ import {
   BaseEntity,
 } from 'typeorm';
 import { createHmac } from 'crypto';
-import { PrivateData } from './PrivateData';
 
 @Entity({
   name: 'user',
@@ -32,26 +31,6 @@ export class User extends BaseEntity {
 
   @Column()
   password: string;
-
-  @Column({ default: false })
-  isAdmin: boolean;
-
-  @OneToOne(type => PrivateData)
-  @JoinColumn()
-  privateData: PrivateData;
-
-  @Column({ type: "uuid", nullable: false })
-  privateDataId: string;
-
-  // @Column({ type: 'bool', default: false })
-  // blocked: boolean;
-
-  // @Column({ type: 'json', default: {} })
-  // blockReason: any;
-
-  // @OneToOne(type => User)
-  // @JoinColumn()
-  // blockedBy: User;
 
   @AfterLoad()
   private fillHashedPassword(): void {
