@@ -27,7 +27,7 @@
       "response-time": "^2.3.2",
       "socket.io": "^2.3.0",
       "tsconfig-paths": "^3.9.0",
-      "typeorm": "0.2.19",
+      "typeorm": "0.2.29",
       "winston": "^3.2.1",
       "mysql": "^2.14.1"
    },
