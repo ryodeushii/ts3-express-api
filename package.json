@@ -40,7 +40,7 @@
       "@types/express": "^4.17.0",
       "@types/express-winston": "^3.0.4",
       "@types/helmet": "0.0.47",
-      "@types/js-base64": "^2.3.1",
+      "@types/js-base64": "^3.3.1",
       "@types/morgan": "^1.9.3",
       "@types/node": "^8.0.29",
       "@types/response-time": "^2.3.4",
