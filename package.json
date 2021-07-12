@@ -51,7 +51,7 @@
       "ts-node-dev": "^1.0.0-pre.52",
       "tslint": "^5.18.0",
       "tslint-config-airbnb": "^5.11.1",
-      "typescript": "3.3.3333"
+      "typescript": "3.9.10"
    },
    "keywords": [],
    "author": "Eugene Kapusta",
